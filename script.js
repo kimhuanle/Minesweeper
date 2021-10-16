@@ -362,32 +362,3 @@ function floodFlag(x, y) {
             choose(a.x, a.y);
     }
 }
-
-// for (let i = 0; i < row; i++) {
-//     for (let j = 0; j < col; j++) {
-//         cell = board[i][j];
-//         shown = cell.show;
-//         if ((i + j) % 2 == 0) {
-//             ctx.fillStyle = "#85d42a";
-//             // if (shown)
-//             //     ctx.fillStyle = "#c9c1a9";
-//         } else {
-//             ctx.fillStyle = "#a2e332";
-//             // if (shown)
-//             //     ctx.fillStyle = "#e8e0c8";
-//         }
-//         ctx.fillRect(cell.x, cell.y, radius, radius);
-//         // if (shown) {
-//         //     if (cell.value < 0) {
-//         //         ctx.fillStyle = "#868686";
-//         //         ctx.beginPath();
-//         //         ctx.arc(cell.x + radius / 2, cell.y + radius / 2, radius / 2 - 7, 0, 2 * Math.PI);
-//         //         ctx.fill();
-//         //     } else if (cell.value > 0) {
-//         //         ctx.font = "bold 28px Arial";
-//         //         ctx.fillStyle = "#0079eb";
-//         //         ctx.fillText(cell.value, cell.x + radius / 3.5, cell.y + radius / 1.3);
-//         //     }
-//         // }
-//     }
-// }
